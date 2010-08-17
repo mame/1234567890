@@ -28,7 +28,7 @@ NOTE: This library uses ObjectSpace; JRuby works but needs -X+O option.
 
 == INSTALL:
 
-* gem install 1234567890
+* gem install 1234567890_
 
 == LICENSE:
 
