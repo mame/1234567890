@@ -6,7 +6,7 @@ at_exit do
 
   # Gather all bignums in ObjectSpace
   bignums = []
-  ObjectSpace.each_object(Bignum) {|n| bignums << n }
+  ObjectSpace.each_object(Integer) {|n| bignums << n }
   GC.enable
 
   # Decode Goedel numbering (using only power of two)

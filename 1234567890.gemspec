@@ -4,9 +4,9 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "1234567890_"
-  spec.version       = "1.1"
+  spec.version       = "1.2"
   spec.authors       = ["Yusuke Endoh"]
-  spec.email         = ["mame@tsg.ne.jp"]
+  spec.email         = ["mame@ruby-lang.org"]
   spec.description   = %q{1234567890 allows you to write Ruby script by using only numbers.}
   spec.summary       = %q{1234567890 allows you to write Ruby script by using only numbers.}
   spec.homepage      = ""
@@ -17,6 +17,6 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.3"
+  spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake"
 end
